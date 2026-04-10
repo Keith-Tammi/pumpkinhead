@@ -17,7 +17,8 @@ const responses: Record<string, string> = {
   "PONG": "HEY! ONLY I CAN SAY THAT, BUT I GUESS IT'S FINE. PING",
   "pign": "Don't pmo",
   "Pign": "Don't Pmo",
-  "PIGN": "DON'T PMO"
+  "PIGN": "DON'T PMO",
+  "gio": "gaming4gio bricks pulse bomb and blames heals"
 };
 
 client.once(Events.ClientReady, (c) => {
