@@ -1,0 +1,15 @@
+{
+  "name": "my-discord-bot",
+  "version": "1.0.0",
+  "description": "A bot that pongs and pigns",
+  "main": "bot.ts",
+  "scripts": {
+    "start": "ts-node bot.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0"
+  }
+}
