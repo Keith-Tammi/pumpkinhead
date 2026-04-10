@@ -27,6 +27,11 @@ client.once(Events.ClientReady, (c) => {
 client.on(Events.MessageCreate, async (message: Message) => {
   if (message.author.bot) return;
 
+  const targetChannelId = "1492235384288182363"; 
+  if (message.channelId !== targetChannelId) {
+    return;
+  }
+  
   const content = message.content.trim();
 
   for (const [trigger, reply] of Object.entries(responses)) {
