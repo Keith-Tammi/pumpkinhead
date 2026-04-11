@@ -33,8 +33,8 @@ const responses: Record<string, string> = {
   "poh": "piiiiih",
   "Poh": "Piiiiih",
   "POH": "PIIIIIH",
-  "sd": "wrong chat rohan..."
-  "Sd": "Wrong Chat Rohan..."
+  "sd": "wrong chat rohan...",
+  "Sd": "Wrong Chat Rohan...",
   "SD": "WRONG CHAT ROHAN..."
 };
 
