@@ -18,7 +18,24 @@ const responses: Record<string, string> = {
   "pign": "Don't pmo",
   "Pign": "Don't Pmo",
   "PIGN": "DON'T PMO",
-  "gio": "gaming4gio bricks pulse bomb and blames heals"
+  "gio": "gaming4gio bricks pulse bomb and blames heals",
+  "Gio": "Gaming4Gio Bricks Pulse Bomb and Blames Heals",
+  "GIO": "GAMING4GIO BRICKS PULSE BOMB AND BLAMES HEALS",
+  "keith": "I'm watching originals, and eating mcdonalds!",
+  "Keith": "I'm Watching Originals, and Eating Mcdonalds!",
+  "KEITH": "I'M WATCHING ORIGINALS, AND EATING MCDONALDS!",
+  "rohan": "sha kuu terry",
+  "Rohan": "Sha Kuu Terry",
+  "ROHAN": "SHA KUU TERRY",
+  "pih": "poh",
+  "Pih": "Poh",
+  "PIH": "POH",
+  "poh": "piiiiih",
+  "Poh": "Piiiiih",
+  "POH": "PIIIIIH",
+  "sd": "wrong chat rohan..."
+  "Sd": "Wrong Chat Rohan..."
+  "SD": "WRONG CHAT ROHAN..."
 };
 
 client.once(Events.ClientReady, (c) => {
@@ -33,7 +50,7 @@ client.on(Events.MessageCreate, async (message: Message) => {
     return;
   }
   
-  const content = message.content.trim();
+  const content = message.content.toLowerCase().trim();
 
   for (const [trigger, reply] of Object.entries(responses)) {
     if (content === trigger || content.includes(trigger)) {
