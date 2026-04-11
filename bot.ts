@@ -50,7 +50,7 @@ client.on(Events.MessageCreate, async (message: Message) => {
     return;
   }
   
-  const content = message.content.toLowerCase().trim();
+  const content = message.content.trim();
 
   for (const [trigger, reply] of Object.entries(responses)) {
     if (content === trigger || content.includes(trigger)) {
