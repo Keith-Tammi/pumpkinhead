@@ -35,7 +35,10 @@ const responses: Record<string, string> = {
   "POH": "PIIIIIH",
   "sd": "wrong chat rohan...",
   "Sd": "Wrong Chat Rohan...",
-  "SD": "WRONG CHAT ROHAN..."
+  "SD": "WRONG CHAT ROHAN...",
+  "esha": "what the heckkkk. no literally. that iss funny. at least in consistent. i love chris lake. i'm seeing disclosure on saturday. i have workk in the morning.",
+  "Esha": "What the heckkkk. No literally. That iss funny. At least in consistent. I love chris lake. I'm seeing disclosure on saturday. I have workk in the morning.",
+  "ESHA": "WHAT THE HECKKKK. NO LITERALLY. THAT ISS FUNNY. AT LEAST IN CONSISTENT. I LOVE CHRIS LAKE. I'M SEEING DISCLOSURE ON SATURDAY. I HAVE WORKK IN THE MORNING."
 };
 
 client.once(Events.ClientReady, (c) => {
