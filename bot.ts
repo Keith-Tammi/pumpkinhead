@@ -36,9 +36,12 @@ const responses: Record<string, string> = {
   "sd": "wrong chat rohan...",
   "Sd": "Wrong Chat Rohan...",
   "SD": "WRONG CHAT ROHAN...",
-  "esha": "what the heckkkk. no literally. that iss funny. at least in consistent. i love chris lake. i'm seeing disclosure on saturday. i have workk in the morning.",
-  "Esha": "What the heckkkk. No literally. That iss funny. At least in consistent. I love chris lake. I'm seeing disclosure on saturday. I have workk in the morning.",
-  "ESHA": "WHAT THE HECKKKK. NO LITERALLY. THAT ISS FUNNY. AT LEAST IN CONSISTENT. I LOVE CHRIS LAKE. I'M SEEING DISCLOSURE ON SATURDAY. I HAVE WORKK IN THE MORNING."
+  "esha": "what the heckkkk. no literally. that iss funny. at least i'm consistent. i love chris lake. bro im tired. food coma. i have workk in the morning.",
+  "Esha": "What the Heckkkk. No Literally. That iss Funny. At Least I'm Consistent. I Love Chris Lake. Bro I'm Tired. Food Coma. I Have Workk in the Morning.",
+  "ESHA": "WHAT THE HECKKKK. NO LITERALLY. THAT ISS FUNNY. AT LEAST I'M CONSISTENT. I LOVE CHRIS LAKE. BRO I'M TIRED. FOOD COMA. I HAVE WORKK IN THE MORNING.",
+  "zai": "don't tell me you're watching vampire diaries again. put on slime. yo, hop on terraria. bro, i don't think i can play competitive games anymore.",
+  "Zai": "Don't Tell me You're Watching Vampire Diaries Again. Put on Slime. Yo, Hop on Terraria. Bro, I Don't Think I Can Play Competitve Games Anymroe.", 
+  "ZAI": "DON'T TELL ME YOU'RE WATCHING VAMPIRE DIARIES AGAIN. PUT ON SLIME. YO, HOP ON TERRARIA. BRO, I DON'T THINK I CAN PLAY COMPETITIVE GAMES ANYMORE."
 };
 
 client.once(Events.ClientReady, (c) => {
